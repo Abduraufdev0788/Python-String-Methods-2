@@ -1,0 +1,5 @@
+a = input("birinchi sonni kiriting: ")
+b = input("ikkingchi sonni kiriting: ")
+c = int(a)+ int(b)
+result = "{a} + {b} = {c}".format(a = a, b = b, c = c)
+print(result)
